@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-router.post('/register', (req, res) => {
+router.post('/', (req, res) => {
     try {
         const { username, password } = req.body;
         // empty checks
