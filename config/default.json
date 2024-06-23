@@ -7,6 +7,7 @@
         "secret": "0efbaba7581bd6aa94cfec4006e92223e1343a839eb80744bf8a9f1cbdde66d36a7bbe6dfb14446af57a95c3438582a7499044974e604f6f41e1c057802c7176",
         "uri": "mongodb+srv://root:14789632@cluster.bjeoadg.mongodb.net/?retryWrites=true&w=majority&appName=cluster",
         "db": "db",
-        "users_collection": "users"
+        "users_collection": "users",
+        "appName": "app"
     }
 }

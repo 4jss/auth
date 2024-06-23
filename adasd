@@ -1,0 +1,7 @@
+project/
+│
+├── app.js
+├── routes/
+│   ├── main.js
+│   ├── api/
+         ├── 
