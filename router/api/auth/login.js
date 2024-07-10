@@ -7,8 +7,8 @@ const router = express.Router();
 
 router.post('/', async(req, res) => {
     const { username, password } = req.body;
-    const client = new MongoClient(config.get('env.uri'));
     try {
+        const client = new MongoClient(config.get('env.uri'));
         const b = req.cookies.token;
         const decodedb = await jwt.verify(b, config.get('env.secret'));
         const e = decodedb.username
